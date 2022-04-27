@@ -1,0 +1,33 @@
+@media only screen and (max-width: 576px) {
+  
+    .galeria img {
+      border:none;
+      width: 576px;
+      height: 576px; 
+    }
+    .galeria img:hover{
+      border: none;
+    }
+  
+  }
+  
+  @media only screen and (max-width:576px){
+  
+    .form {
+      background: linear-gradient(black, black, red, black);
+      border: white solid 1px;
+      width: 90%; 
+    }
+    .card {
+      width: 90%;
+      margin: 1rem;
+    }
+  
+    .footer{
+      width: 100%;
+    }
+    .bg-vdeo{
+    width: 372px;
+    height: 200px;
+    }
+  }

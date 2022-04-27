@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+
+  $fontcolor:#f6c709;
+  $fonthover:#ff1500;
+  $fontestilo:serif;
+  $fontmedida:30px;
+    
+ 
+  @import "header";
+  @import "footer";
+  @import "galeria";  
+  @import "contacto";
+
+
+  
+  h1 {
+    font-size:$fontmedida;
+    font-weight: bold;
+    font-family:$fontestilo;
+    color: $fontcolor;
+    text-align: center;
+    transition: all 2s; 
+  
+    &:hover {
+    color:$fonthover;
+    transform: scale(1.1, 1.2);}
+  }
+  
+  h2 {
+    text-align: center;
+    font-family:$fontestilo;
+    color: $fontcolor;
+    font-size:($fontmedida)-5;
+    font-weight: bold; 
+  
+    &:hover {
+      color:$fonthover;
+      transform: scale(1.1, 1.2);}
+  }
+
+  h3{
+    font-size:($fontmedida)-10;
+    font-family:$fontestilo;
+  
+  }
+  
+  h4,p{ 
+
+    font-size: ($fontmedida)-15;
+    text-align: center;
+    color:$fontcolor;
+    font-family:$fontestilo;
+  
+  }
+  
+  
+  body {
+    background: black; 
+    text-align: center;
+  }
+  
+  .discografia {
+   background: linear-gradient(black, black, red, silver, black); }
+    
+  
+  .btn-primary {
+    background-color: gold;
+    color: black; 
+  &:hover {
+    background-color:black; }
+  }
+  
+  
+  
+
+  
+
+  
+ 
+  

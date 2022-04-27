@@ -1,0 +1,20 @@
+.galeria {
+    margin-top: 2rem ;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+
+  
+img {
+    width: 400px;
+    height: 300px;
+    opacity: .5;
+    border: .5rem silver;
+  
+    &:hover {
+    opacity: 1;
+    border: double 1rem gold;}
+}
+
+}
