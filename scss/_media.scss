@@ -11,7 +11,7 @@
   
   }
   
-  @media only screen and (max-width:576px){
+  @media only screen and(max-width:576px){
   
     .form {
       background: linear-gradient(black, black, red, black);
@@ -26,8 +26,21 @@
     .footer{
       width: 100%;
     }
-    .bg-vdeo{
-    width: 372px;
-    height: 200px;
+   
+    .gira{
+      margin-left:0;
+      object-fit: cover;
+      width:100%; 
+      height:50vh;
     }
-  }
+    .bg-video{
+      
+      object-fit: cover;
+    }
+  
+    }
+ 
+      
+    
+ 
+  

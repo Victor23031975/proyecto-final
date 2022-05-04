@@ -5,7 +5,7 @@
     width:50%;
   .complete{
   
-    background-color: black;
+    @extend body;
     border:gold solid 1px;
     color: $fontcolor;
     font-family: Georgia, 'Times New Roman', Times, serif;

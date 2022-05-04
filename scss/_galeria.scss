@@ -1,6 +1,7 @@
 .galeria {
+
+    @extend .galeria;
     margin-top: 2rem ;
-    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; 
@@ -14,7 +15,10 @@ img {
   
     &:hover {
     opacity: 1;
-    border: double 1rem gold;}
+    border: double 1rem gold;
+    
+    
+}
 }
 
 }
