@@ -1,8 +1,11 @@
+
 .form {
     background: linear-gradient(black, black, red, black);
     color: $fontcolor;
     border: white solid 1px;
-    width:50%;
+    width:75%;
+    margin-left: 25%;
+    margin-right: 25%;
   .complete{
   
     @extend body;
@@ -12,9 +15,11 @@
     font-size: 15px;
   }
 }
+ 
   
   .card{
-    width: 18rem;
+    margin-top: 2rem;
+    width: 20rem;
   }
   .card-text{
     color:$fontcolor;
@@ -37,3 +42,4 @@
   .animate__shakeY {
     --animate-duration: 2s;
   }
+  

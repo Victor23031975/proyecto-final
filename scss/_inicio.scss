@@ -16,8 +16,9 @@ header {
     .bg-video{
         width:100vw;
         height:100vh;
-        position: absolute;
-        left: 0;
+        position: fixed;
+     
+        left:0;
         right: 0;
         top: 5rem;
         bottom:0;
@@ -63,7 +64,7 @@ header {
       .gira{
         display:block;
         flex-direction: row;
-        position: relative;
+        margin-top: 15%;
         margin-left: 25%;
         margin-right: 25% ;
         margin-bottom: 15%;
@@ -74,6 +75,7 @@ header {
         animation-delay: .5s;
         animation-name:info;
         animation-iteration-count: infinite;
+        
         .btn{
           background-color:transparent;
           text-decoration: none;
@@ -92,26 +94,28 @@ header {
           0%{
             opacity: 0;
             font-size: 20px;
-            
+            transform:scale(1.1,1.5);
            
           }
           50%{
             opacity:1;
             font-size: 30px;
-         
+            transform:scale(1.1,1.9);
           }
           100%{
             opacity: 0;
             font-size: 20px;
-            
+            transform:scale(1.1,1.5);
+           
           }
         }
-        .fecha{
+        .fechas{
           margin-top: 50px;
+          margin-left: 25%;
+          margin-right: 25%;
         }
 
-          
-        
+       
              
       
       

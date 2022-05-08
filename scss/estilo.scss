@@ -42,9 +42,8 @@
     font-size:($fontmedida)-5;
    
   
-    &:hover {
-      color:$fonthover;
-      transform: scale(1.1, 1.2);}
+   
+     
   }
 
   h3{
@@ -71,6 +70,7 @@
     @include letras;
       color: white;
       font-size:($fontmedida)-15;
+     
   
     }
 
@@ -85,10 +85,6 @@
    text-align: center
   }
   
-  .discografia {
-  @extend body;
-  object-fit: cover;
-  }
   
   .btn-primary {
     background-color:gold;
@@ -97,7 +93,34 @@
   &:hover {
     background-color:black; }
   }
+  .discos{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+  }
+  .carousel{
+    margin: 0;
+    .d-block{
+      width: 100%;
+    }
+    
+  }
   
+  .discografia {
+    @extend body;
+    margin: 0;
+   
+    }
+  .cards{
+    width: 30%;
+    margin: 1.5rem;
+    padding: 1rem;
+    justify-content: space-around;
+
+  }
  
 
   

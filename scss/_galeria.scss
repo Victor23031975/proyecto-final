@@ -8,14 +8,15 @@
 
   
 img {
-    width: 400px;
-    height: 300px;
+    width: 650px;
+    height: 500px;
     opacity: .5;
     border: .5rem silver;
   
     &:hover {
     opacity: 1;
     border: double 1rem gold;
+    
     
     
 }

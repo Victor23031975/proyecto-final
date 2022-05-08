@@ -17,7 +17,7 @@ a {
 .bg-video {
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 5rem;
@@ -45,7 +45,7 @@ ul ul {
 .gira {
   display: block;
   flex-direction: row;
-  position: relative;
+  margin-top: 15%;
   margin-left: 25%;
   margin-right: 25%;
   margin-bottom: 15%;
@@ -65,16 +65,21 @@ ul ul {
 @keyframes info {
   0% {
     opacity: 0;
-    font-size: 20px; }
+    font-size: 20px;
+    transform: scale(1.1, 1.5); }
   50% {
     opacity: 1;
-    font-size: 30px; }
+    font-size: 30px;
+    transform: scale(1.1, 1.9); }
   100% {
     opacity: 0;
-    font-size: 20px; } }
+    font-size: 20px;
+    transform: scale(1.1, 1.5); } }
 
-.fecha {
-  margin-top: 50px; }
+.fechas {
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%; }
 
 .footer {
   margin-top: 30px;
@@ -93,8 +98,8 @@ ul ul {
   flex-wrap: wrap;
   justify-content: space-around; }
   .galeria img {
-    width: 400px;
-    height: 300px;
+    width: 650px;
+    height: 500px;
     opacity: .5;
     border: .5rem silver; }
     .galeria img:hover {
@@ -105,7 +110,9 @@ ul ul {
   background: linear-gradient(black, black, red, black);
   color: white;
   border: white solid 1px;
-  width: 50%; }
+  width: 75%;
+  margin-left: 25%;
+  margin-right: 25%; }
   .form .complete {
     border: gold solid 1px;
     color: white;
@@ -113,7 +120,8 @@ ul ul {
     font-size: 15px; }
 
 .card {
-  width: 18rem; }
+  margin-top: 2rem;
+  width: 20rem; }
 
 .card-text {
   color: white; }
@@ -146,20 +154,41 @@ ul ul {
 @media only screen and (max-width: 576px) {
   .form {
     background: linear-gradient(black, black, red, black);
-    border: white solid 1px;
+    border: black solid 1px;
     width: 90%; }
   .card {
     width: 90%;
-    margin: 1rem; }
+    margin: 1rem;
+    border: black; }
   .footer {
     width: 100%; }
   .gira {
     margin-left: 0;
-    object-fit: cover;
     width: 100%;
-    height: 50vh; }
+    height: 50vh;
+    margin-top: 20%; }
   .bg-video {
-    object-fit: cover; } }
+    background-color: black; }
+  .fechas {
+    margin-top: 250px; }
+  @keyframes info {
+    0% {
+      opacity: 0;
+      font-size: 20px;
+      transform: scale(1.1, 1.2); }
+    50% {
+      opacity: 1;
+      font-size: 30px;
+      transform: scale(1.1, 1.1); }
+    100% {
+      opacity: 0;
+      font-size: 20px;
+      transform: scale(1.1, 1.2); } }
+  .cards {
+    width: 500px;
+    margin: 1.5rem;
+    padding: 1rem;
+    justify-content: center; } }
 
 h1 {
   font-weight: lighter;
@@ -178,9 +207,6 @@ h2 {
   color: white;
   text-align: center;
   font-size: 25px; }
-  h2:hover {
-    color: #ff1500;
-    transform: scale(1.1, 1.2); }
 
 h3 {
   font-weight: lighter;
@@ -218,11 +244,28 @@ body, .form .complete, .discografia {
   background-color: black;
   text-align: center; }
 
-.discografia {
-  object-fit: cover; }
-
 .btn-primary {
   background-color: gold;
   color: black; }
   .btn-primary:hover {
     background-color: black; }
+
+.discos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center; }
+
+.carousel {
+  margin: 0; }
+  .carousel .d-block {
+    width: 100%; }
+
+.discografia {
+  margin: 0; }
+
+.cards {
+  width: 30%;
+  margin: 1.5rem;
+  padding: 1rem;
+  justify-content: space-around; }
