@@ -17,7 +17,7 @@ header {
         width:100vw;
         height:100vh;
         position: fixed;
-     
+        
         left:0;
         right: 0;
         top: 5rem;
@@ -25,6 +25,8 @@ header {
         z-index: -1;
         
       } 
+
+      
       
 
 
@@ -62,6 +64,7 @@ header {
       }
 
       .gira{
+        background-color: red;
         display:block;
         flex-direction: row;
         margin-top: 15%;
@@ -69,7 +72,7 @@ header {
         margin-right: 25% ;
         margin-bottom: 15%;
         width:50%;
-        height: 50vh;
+        height: 10vh;
         object-fit: cover;
         animation-duration: 10s;
         animation-delay: .5s;

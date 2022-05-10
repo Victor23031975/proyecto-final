@@ -13,9 +13,19 @@
   
   @media only screen and(max-width:576px){
 
+
+    .carousel{
+      margin: 0;
+      margin-left:0 ;
+      
+      .d-block{
+        width:100%;
+        height: 100vw;
+        
+      }
+    }
     
-    
-  
+   
     .form {
       background: linear-gradient(black, black, red, black);
       border:black solid 1px;
@@ -33,14 +43,17 @@
     }
    
     .gira{
-      margin-left:0;
-      width:100%; 
-      height:50vh;
+      margin-left:10%;
+      margin-right:10%;
+      width:80%; 
+      height:10vh;
       margin-top:20% ;
 
     }
     .bg-video{
       background-color: black;
+     
+
     }
 
     .fechas{
